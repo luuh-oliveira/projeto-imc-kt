@@ -57,7 +57,8 @@
             android:padding="15dp">
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:gravity="center"
@@ -82,11 +83,12 @@
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1.5"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:gravity="center"
-                android:layout_marginLeft="35dp">
+                >
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -107,11 +109,12 @@
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:gravity="center"
-                android:layout_marginLeft="35dp">
+                >
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -132,11 +135,12 @@
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:gravity="center"
-                android:layout_marginLeft="35dp">
+                >
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -157,11 +161,12 @@
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:gravity="center"
-                android:layout_marginLeft="35dp">
+                >
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -188,7 +193,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="30dp"
         android:orientation="vertical"
         android:gravity="center"
         android:padding="20dp">
@@ -217,7 +222,9 @@
                     android:textStyle="bold"
                     android:layout_toEndOf="@+id/iv_balanca"
                     android:layout_marginStart="20dp"
-                    android:fontFamily="@font/montserrat"/>
+                    android:layout_alignTop="@+id/iv_balanca"
+                    android:fontFamily="@font/montserrat"
+                    android:textColor="@color/black"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -258,7 +265,9 @@
                     android:textStyle="bold"
                     android:layout_toEndOf="@id/iv_grafico"
                     android:layout_marginStart="20dp"
-                    android:fontFamily="@font/montserrat"/>
+                    android:fontFamily="@font/montserrat"
+                    android:textColor="@color/black"
+                    android:layout_alignTop="@id/iv_grafico"/>
 
                 <TextView
                     android:layout_width="wrap_content"

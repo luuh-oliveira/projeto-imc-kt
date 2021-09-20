@@ -9,13 +9,15 @@
         android:roundIcon="@drawable/imc"
         android:supportsRtl="true"
         android:theme="@style/Theme.ProjetoImc">
-        <activity android:name=".DashboardActivity"></activity>
-        <activity android:name=".CadastroUsuarioActivity">
+        <activity android:name=".DashboardActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".CadastroUsuarioActivity">
+
         </activity>
         <activity android:name=".LoginActivity"></activity>
         <activity android:name=".MainActivity"></activity>

@@ -55,12 +55,12 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Dados para autenticação"
-                android:textSize="20sp"
                 android:drawableStart="@drawable/lock"
                 android:drawablePadding="16dp"
                 android:drawableTint="@color/purple"
-                android:fontFamily="@font/montserrat"/>
+                android:fontFamily="@font/montserrat"
+                android:text="Dados para autenticação"
+                android:textSize="20sp" />
 
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
