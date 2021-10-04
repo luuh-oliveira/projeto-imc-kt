@@ -11,6 +11,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        supportActionBar!!.hide()
+
         //val é imutável - var é mutável
 
         val buttonCalcular = findViewById<Button>(R.id.button_calcular)
