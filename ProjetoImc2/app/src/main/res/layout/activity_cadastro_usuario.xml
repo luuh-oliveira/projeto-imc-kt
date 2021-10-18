@@ -66,9 +66,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="E-mail"
-                app:endIconMode="clear_text">
+                app:endIconMode="clear_text"
+                app:hintTextColor="@color/purple"
+                >
 
                 <EditText
+                    android:id="@+id/et_email"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"/>
 
@@ -79,13 +82,16 @@
                 android:layout_height="wrap_content"
                 android:hint="Senha"
                 app:passwordToggleEnabled="true"
-                android:layout_marginBottom="16dp">
+                android:layout_marginBottom="16dp"
+                app:hintTextColor="@color/purple"
+                >
 
                 <EditText
-                    android:id="@+id/edit_senha"
+                    android:id="@+id/et_senha"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:inputType="textPassword"/>
+                    android:inputType="textPassword"
+                    />
 
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -102,50 +108,65 @@
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Nome">
+                android:hint="Nome"
+                app:endIconMode="clear_text"
+                app:hintTextColor="@color/purple"
+                >
 
                 <EditText
+                    android:id="@+id/et_nome"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    app:endIconMode="clear_text"/>
+                    />
 
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Profissão">
+                android:hint="Profissão"
+                app:endIconMode="clear_text"
+                app:hintTextColor="@color/purple"
+                >
 
                 <EditText
+                    android:id="@+id/et_profissao"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    app:endIconMode="clear_text"/>
+                    />
 
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Altura">
+                android:hint="Altura"
+                app:endIconMode="clear_text"
+                app:hintTextColor="@color/purple"
+                >
 
                 <EditText
+                    android:id="@+id/et_altura"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="numberDecimal"
-                    app:endIconMode="clear_text"/>
+                    />
 
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Data de nascimento">
+                android:hint="Data de nascimento"
+                app:hintTextColor="@color/purple"
+                >
 
                 <EditText
                     android:id="@+id/et_data_nascimento"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:focusable="false"/>
+                    android:focusable="false"
+                    />
 
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -161,18 +182,21 @@
                     android:textSize="18sp"/>
 
                 <RadioGroup
+                    android:id="@+id/rg_sexo"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
                     >
 
                     <RadioButton
+                        android:id="@+id/rb_feminino"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginRight="15dp"
                         android:text="Feminino" />
 
                     <RadioButton
+                        android:id="@+id/rb_masculino"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Masculino" />

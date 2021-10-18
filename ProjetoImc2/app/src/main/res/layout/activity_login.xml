@@ -76,8 +76,9 @@
         android:layout_height="wrap_content"
         android:id="@+id/til_email"
         android:layout_below="@id/text_login_obrigatorio"
+        android:layout_marginTop="15dp"
         android:hint="E-mail"
-        app:hintAnimationEnabled="true"
+        app:hintTextColor="@color/purple"
         >
 
         <EditText
@@ -103,7 +104,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/til_email"
+        android:layout_marginTop="10dp"
         app:passwordToggleEnabled="true"
+        app:hintTextColor="@color/purple"
         >
 
     <EditText
